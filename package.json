@@ -1,8 +1,12 @@
 {
   "name": "drum-machine",
   "description": "",
+  "private": true,
   "main": "index.html",
+  "homepage": "https://deepak-parmar.github.io/drum-machine",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "snowpack dev",
     "build": "snowpack build"
   },
