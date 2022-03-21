@@ -1,4 +1,4 @@
-import React from "../_snowpack/pkg/react.js";
+import React from "../snowpack/pkg/react.js";
 import DrumPad from "./DrumPad.js";
 import data from "./data.js";
 class DrumMachine extends React.Component {

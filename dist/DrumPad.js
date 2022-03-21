@@ -1,4 +1,4 @@
-import React from "../_snowpack/pkg/react.js";
+import React from "../snowpack/pkg/react.js";
 import "./DrumPad.css.proxy.js";
 class DrumPad extends React.Component {
   constructor(props) {
