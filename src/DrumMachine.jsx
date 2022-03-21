@@ -30,7 +30,7 @@ class DrumMachine extends React.Component {
 
     return (
       <div id="drum-machine">
-        <div id="display">{this.state.display}</div>
+        <h1 id="display">{this.state.display}</h1>
         { DrumPads }
       </div>
     );
