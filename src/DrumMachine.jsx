@@ -1,6 +1,6 @@
 import React from "react";
-import DrumPad from "DrumPad";
-import data from "data"
+import DrumPad from "./DrumPad";
+import data from "./data"
 
 class DrumMachine extends React.Component {
   constructor(props) {
