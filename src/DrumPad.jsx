@@ -1,5 +1,5 @@
 import React from "react";
-import "./DrumPad.css"
+import "DrumPad.css"
 
 class DrumPad extends React.Component {
   constructor(props) {
@@ -33,7 +33,7 @@ class DrumPad extends React.Component {
       <audio
         id={this.props.label}
         className={"clip"}
-        src={"/dist/sounds/" + this.props.url} />
+        src={"dist/sounds/" + this.props.url} />
 
     </button>
 }
