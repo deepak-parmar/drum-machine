@@ -22,7 +22,7 @@ class DrumPad extends React.Component {
   }, this.props.label, /* @__PURE__ */ React.createElement("audio", {
     id: this.props.label,
     className: "clip",
-    src: "/dist/sounds/" + this.props.url
+    src: "dist/sounds/" + this.props.url
   }));
 }
 export default DrumPad;
