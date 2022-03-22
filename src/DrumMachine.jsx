@@ -1,11 +1,13 @@
 import React from "react";
 import DrumPad from "./DrumPad";
 import data from "./data"
+import "./style.css"
+
 
 class DrumMachine extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {display: ''}
+    this.state = {display: 'PLAY SOMETHING!'}
     this.setDisplay = this.setDisplay.bind(this);
   }
 
@@ -31,7 +33,7 @@ class DrumMachine extends React.Component {
     return (
       <div id="drum-machine">
         <h1 id="display">{this.state.display}</h1>
-        { DrumPads }
+        <div>{ DrumPads }</div>
       </div>
     );
   }
